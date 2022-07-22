@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Flurl.Http" Version="4.0.0-pre2" />
+      <PackageReference Include="FuzzySharp" Version="2.0.2" />
+      <PackageReference Include="HtmlAgilityPack" Version="1.11.43" />
+      <PackageReference Include="Manganese" Version="1.2.1" />
+      <PackageReference Include="morelinq" Version="3.3.2" />
+      <PackageReference Include="Polly" Version="7.2.3" />
+      <PackageReference Include="Spectre.Console" Version="0.44.1-preview.0.29" />
+      <PackageReference Include="SpotifyAPI.Web" Version="6.2.2" />
+      <PackageReference Include="SpotifyAPI.Web.Auth" Version="6.2.2" />
+    </ItemGroup>
+
+</Project>
